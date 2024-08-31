@@ -5,8 +5,6 @@ import Image from "next/image";
 const getTime = async () => {
   const res = await fetch("http://localhost:3000/time", { cache: "no-store" });
   const data = await res.json();
-  console.log(data);
-
   return data.currentTime;
 };
 
@@ -23,7 +21,7 @@ const MealPage = async () => {
       <Meals />
 
       <Image src="/1.jpg" alt="" height={1000} width={900} />
-      <h3>Time: {realTime}</h3>
+      {/* <h3>Time: {realTime}</h3> */}
     </div>
   );
 };
