@@ -20,7 +20,7 @@ const MealPage = async () => {
       <h4>Choose your meal: </h4>
       <Meals />
 
-      <Image src="/1.jpg" alt="" height={1000} width={900} />
+      <Image src="/1.jpg" alt="" height={700} width={600} />
       {/* <h3>Time: {realTime}</h3> */}
     </div>
   );
