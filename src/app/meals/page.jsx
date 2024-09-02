@@ -21,6 +21,7 @@ const MealPage = async () => {
       <Meals />
 
       <Image src="/1.jpg" alt="" height={700} width={600} />
+      <h1>Test</h1>
       {/* <h3>Time: {realTime}</h3> */}
     </div>
   );
